@@ -12,6 +12,6 @@ object RetrofitInstance {
         .build()
 
     val weatherService: WeatherService by lazy {
-        retrofit.create
+        retrofit.create(WeatherService::class.java)
     }
 }
