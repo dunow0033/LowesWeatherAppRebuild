@@ -11,5 +11,7 @@ object RetrofitInstance {
         .addConverterFactory(MoshiConverterFactory.create())
         .build()
 
-    //val weatherService
+    val weatherService: WeatherService by lazy {
+        retrofit.create
+    }
 }
