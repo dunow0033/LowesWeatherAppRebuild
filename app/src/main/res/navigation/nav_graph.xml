@@ -30,7 +30,6 @@
             android:name="city"
             app:argType="string"
             app:nullable="false" />
-
     </fragment>
     <fragment
         android:id="@+id/weatherInfoFragment"
@@ -46,5 +45,4 @@
             app:argType="string"
             app:nullable="false" />
     </fragment>
-
 </navigation>
